@@ -30,7 +30,7 @@ function Header() {
       <div className="max-w-6xl mx-auto px-6 md:px-12 flex items-center gap-6">
         <Link href="/about">
           <span className="font-serif text-xl tracking-wider text-primary font-bold shrink-0 py-3 cursor-pointer">
-            CV<span className="text-foreground">.</span>
+            CK<span className="text-foreground">.</span>
           </span>
         </Link>
         <nav className="flex overflow-x-auto gap-0" style={{ scrollbarWidth: 'none' }}>

@@ -8,7 +8,7 @@ export function Footer() {
           © 2026 Chandrakanth Vallakati. All rights reserved.
         </p>
         <a href="#hero" className="text-primary font-serif font-bold text-xl hover:text-white transition-colors">
-          CV.
+          CK.
         </a>
       </div>
     </footer>

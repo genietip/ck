@@ -36,7 +36,7 @@ function LoginForm({ onLogin }: { onLogin: (token: string) => void }) {
         className="w-full max-w-sm bg-card border border-white/8 rounded-2xl p-8"
       >
         <div className="mb-8 text-center">
-          <span className="font-serif text-3xl text-primary font-bold">CV<span className="text-foreground">.</span></span>
+          <span className="font-serif text-3xl text-primary font-bold">CK<span className="text-foreground">.</span></span>
           <p className="text-muted-foreground text-sm mt-2 tracking-wide">Admin Portal</p>
         </div>
 
