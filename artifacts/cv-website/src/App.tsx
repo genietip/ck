@@ -1,6 +1,5 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link, Route, Switch, useLocation, Router as WouterRouter, Redirect } from 'wouter';
-import { Hero } from './components/Hero';
 import { About } from './components/About';
 import { Skills } from './components/Skills';
 import { Experience } from './components/Experience';
@@ -93,7 +92,6 @@ function App() {
     <WouterRouter base={import.meta.env.BASE_URL.replace(/\/$/, '')}>
       <div className="min-h-screen bg-background text-foreground overflow-x-hidden selection:bg-primary/30 selection:text-primary">
         <Header />
-        <Hero />
         <main className="max-w-6xl mx-auto">
           <Pages />
         </main>
