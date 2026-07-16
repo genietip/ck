@@ -4,7 +4,7 @@ import profilePhoto from '@assets/Photoroom_20260414_001256_1784162174403.jpg';
 
 export function Hero() {
   return (
-    <section id="hero" className="relative pt-32 pb-20 md:pt-48 md:pb-32 px-6 md:px-12 max-w-6xl mx-auto min-h-[90vh] flex flex-col justify-center">
+    <section id="hero" className="relative pt-24 pb-10 md:pt-28 md:pb-12 px-6 md:px-12 max-w-6xl mx-auto flex flex-col justify-center">
       <div className="flex flex-col-reverse md:flex-row items-start justify-between gap-12 md:gap-8">
         
         {/* Left Content */}
