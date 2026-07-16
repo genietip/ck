@@ -7,6 +7,8 @@ import { Achievements } from './components/Achievements';
 import { Education } from './components/Education';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
+import { GalleryPage } from './pages/GalleryPage';
+import { AdminPage } from './pages/AdminPage';
 
 const tabs = [
   { id: 'about',        label: 'About',        path: '/about' },
@@ -14,33 +16,31 @@ const tabs = [
   { id: 'experience',   label: 'Experience',    path: '/experience' },
   { id: 'achievements', label: 'Achievements',  path: '/achievements' },
   { id: 'education',    label: 'Education',     path: '/education' },
+  { id: 'gallery',      label: 'Gallery',       path: '/gallery' },
   { id: 'contact',      label: 'Contact',       path: '/contact' },
 ];
 
 function Header() {
   const [location] = useLocation();
+  const isAdmin = location.startsWith('/admin');
+  if (isAdmin) return null;
 
   return (
     <header className="sticky top-0 z-50 bg-background border-b border-white/8">
-      <div className="max-w-6xl mx-auto px-6 md:px-12 flex items-center gap-8">
-        {/* Logo */}
+      <div className="max-w-6xl mx-auto px-6 md:px-12 flex items-center gap-6">
         <Link href="/about">
           <span className="font-serif text-xl tracking-wider text-primary font-bold shrink-0 py-3 cursor-pointer">
             CV<span className="text-foreground">.</span>
           </span>
         </Link>
-
-        {/* Tab links */}
         <nav className="flex overflow-x-auto gap-0" style={{ scrollbarWidth: 'none' }}>
           {tabs.map((tab) => {
             const isActive = location === tab.path || (location === '/' && tab.path === '/about');
             return (
               <Link key={tab.id} href={tab.path}>
-                <span
-                  className={`relative block shrink-0 px-4 py-4 text-sm font-medium tracking-wide transition-colors duration-200 cursor-pointer ${
-                    isActive ? 'text-primary' : 'text-muted-foreground hover:text-foreground'
-                  }`}
-                >
+                <span className={`relative block shrink-0 px-4 py-4 text-sm font-medium tracking-wide transition-colors duration-200 cursor-pointer ${
+                  isActive ? 'text-primary' : 'text-muted-foreground hover:text-foreground'
+                }`}>
                   {tab.label}
                   {isActive && (
                     <motion.div
@@ -61,6 +61,9 @@ function Header() {
 
 function Pages() {
   const [location] = useLocation();
+  const isAdmin = location.startsWith('/admin');
+
+  if (isAdmin) return <AdminPage />;
 
   return (
     <AnimatePresence mode="wait">
@@ -72,14 +75,13 @@ function Pages() {
         transition={{ duration: 0.25, ease: 'easeOut' }}
       >
         <Switch>
-          <Route path="/">
-            <Redirect to="/about" />
-          </Route>
+          <Route path="/"><Redirect to="/about" /></Route>
           <Route path="/about"        component={About} />
           <Route path="/skills"       component={Skills} />
           <Route path="/experience"   component={Experience} />
           <Route path="/achievements" component={Achievements} />
           <Route path="/education"    component={Education} />
+          <Route path="/gallery"      component={GalleryPage} />
           <Route path="/contact"      component={Contact} />
         </Switch>
       </motion.div>
@@ -88,17 +90,32 @@ function Pages() {
 }
 
 function App() {
+  const [location] = useLocation();
+  const isAdmin = location.startsWith('/admin');
+
+  return (
+    <div className="min-h-screen bg-background text-foreground overflow-x-hidden selection:bg-primary/30 selection:text-primary">
+      <Header />
+      {isAdmin ? (
+        <Pages />
+      ) : (
+        <>
+          <main className="max-w-6xl mx-auto">
+            <Pages />
+          </main>
+          <Footer />
+        </>
+      )}
+    </div>
+  );
+}
+
+function AppWithRouter() {
   return (
     <WouterRouter base={import.meta.env.BASE_URL.replace(/\/$/, '')}>
-      <div className="min-h-screen bg-background text-foreground overflow-x-hidden selection:bg-primary/30 selection:text-primary">
-        <Header />
-        <main className="max-w-6xl mx-auto">
-          <Pages />
-        </main>
-        <Footer />
-      </div>
+      <App />
     </WouterRouter>
   );
 }
 
-export default App;
+export default AppWithRouter;

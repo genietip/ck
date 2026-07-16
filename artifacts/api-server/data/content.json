@@ -1,0 +1,138 @@
+{
+  "hero": {
+    "name1": "Chandrakanth",
+    "name2": "Vallakati",
+    "tagline": "Business Leader · Customer Success · Innovation",
+    "bio": "A passionate Business Leader with 21+ years transforming enterprises in Communications, Media & Entertainment through innovation, consultative selling, and delivery excellence — leading and transforming client organizations through creative IT solutions.",
+    "email": "chandu4u@gmail.com",
+    "phone": "(469) 200-9654",
+    "location": "Marlton, New Jersey",
+    "stats": [
+      { "stat": "21+", "label": "Years Experience" },
+      { "stat": "$210M+", "label": "TCV Converted" },
+      { "stat": "Fortune 500", "label": "Clients Served" },
+      { "stat": "35%", "label": "CSAT Improvement" }
+    ]
+  },
+  "skills": [
+    "Leadership",
+    "Client Relationship Mgmt",
+    "P&L Management",
+    "Strategic Business Planning",
+    "Business Development",
+    "Enterprise Sales & Consultative Selling",
+    "Revenue Growth & Deal Closure",
+    "Communications & Media Domain",
+    "5G / Edge Computing / Conversational AI",
+    "Gen AI / Digital Transformation",
+    "Agile / DevOps",
+    "PMP Certified"
+  ],
+  "experience": [
+    {
+      "period": "Dec 2024 – Present",
+      "company": "HCLTech",
+      "role": "Senior Sales Director (Head of Cable)",
+      "scope": "NA Telco – MSO & Wireless",
+      "highlights": [
+        "Drove new logo acquisition across MSOs, regional cable operators, and broadband providers",
+        "Enabled 2 Fortune 500 new logos to portfolio negotiating MSAs",
+        "Developed strategic frameworks with data-driven decisions for emerging market trends",
+        "Introduced innovative business concepts enhancing strategic roadmap and diversifying revenue streams"
+      ]
+    },
+    {
+      "period": "Nov 2022 – Nov 2024",
+      "company": "Virtusa Corp.",
+      "role": "Client Partner",
+      "scope": "Charter Communications & CSG International | NA Telco – MSO & Platforms",
+      "highlights": [
+        "P&L Owner for cluster of Telco accounts with global teams across USA, South Africa, India & Sri Lanka",
+        "Consistent revenue growth of 15% QoQ through business development and customer diversification",
+        "Contact Center Transformation: Built Conversational AI portfolio achieving 50% cost reduction",
+        "Led Gen AI engagements for SDLC acceleration and dynamic Conversational AI flows"
+      ]
+    },
+    {
+      "period": "Aug 2015 – Nov 2022",
+      "company": "Tata Consultancy Services",
+      "role": "Client Partner",
+      "scope": "Comcast Corporation | NA Communications – MSO Products & Enterprise Portfolio",
+      "highlights": [
+        "P&L Owner for Key Products & Enterprise Portfolios – $50M portfolio with strong operating margin",
+        "Consistent revenue growth of 40% YoY through expanding relationships and new business development",
+        "Partnered with customer on building MVNO Wireless Ordering & Billing systems serving 500K+ subscribers",
+        "Built NextGen Biller portfolio from scratch – $8M/annum, 99.9% accuracy on key migration"
+      ]
+    },
+    {
+      "period": "Sep 2014 – Jul 2015",
+      "company": "TCS (at CISCO)",
+      "role": "Business Relationship Manager",
+      "scope": "Service Supply Chain | Customer Care",
+      "highlights": [
+        "Spearheaded P&L functions – Revenue, Pipeline, Gross Margin",
+        "Bid Management – proposals, case studies, and client presentations"
+      ]
+    },
+    {
+      "period": "Apr 2011 – Aug 2014",
+      "company": "TCS (at Ericsson)",
+      "role": "Account Manager",
+      "scope": "NA Telco Equipment Vendor – R&D and Services",
+      "highlights": [
+        "Led R&D project for Sprint's Network Vision Program driving network modernization",
+        "Managed global R&D teams across US, Canada, and China"
+      ]
+    },
+    {
+      "period": "Jun 2004 – Mar 2011",
+      "company": "TCS (at Nortel Networks)",
+      "role": "Project Manager / Functional Consultant",
+      "scope": "NA Telco Equipment Vendor – Wireless R&D",
+      "highlights": [
+        "Introduced Gateway Controllers on new aTCA platform increasing capacity and reducing footprint",
+        "Led technical reviews and process improvements across release cycles"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "title": "P&L & Market Expansion",
+      "icon": "TrendingUp",
+      "description": "P&L Owner of large accounts for Fortune 500 clients. Converted over $210M in Total Contract Value across 3 financial years with large multiyear deal closures."
+    },
+    {
+      "title": "Innovation & Thought Leadership",
+      "icon": "Lightbulb",
+      "description": "Drove CxO discussions for customer success with ~$100M+ savings through business transformation. Led digital imperatives including 5G Monetization, Edge Computing, and Conversational AI."
+    },
+    {
+      "title": "Strategic Relationships",
+      "icon": "Handshake",
+      "description": "Built and nurtured CxO-level relationships to understand critical success factors. 35% improvement in Customer Satisfaction Index through collaborative, customer-centric leadership."
+    },
+    {
+      "title": "Delivery Excellence",
+      "icon": "Award",
+      "description": "Reduced release cycles by 35% with hyper-automation. Surpassed sales targets by 25% within a year through strategic talent recruitment and high-performing team development."
+    }
+  ],
+  "education": {
+    "formal": [
+      { "degree": "B.Tech", "field": "Electronics & Communication Engineering" },
+      { "degree": "PMP Certified", "field": "Project Management Professional" }
+    ],
+    "leadership": [
+      { "title": "AI Applications for Growth", "school": "Northwestern – Kellogg School of Management" },
+      { "title": "Elevate Wings 3 – Growth & Transformation", "school": "INSEAD Business School" },
+      { "title": "Emerging Leadership Seminar", "school": "Fisher School of Business, Ohio University" },
+      { "title": "Ambassador Corps", "school": "Sales Leadership Program" },
+      { "title": "Pragati", "school": "Large Program Management Leadership" }
+    ]
+  },
+  "contact": {
+    "heading": "Let's Connect",
+    "subtext": "Open to discussing strategic partnerships, business transformation opportunities, and leadership roles in the communications industry."
+  }
+}
