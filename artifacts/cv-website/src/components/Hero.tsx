@@ -27,7 +27,7 @@ export function Hero() {
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl mb-12 font-light">
-            21+ years transforming enterprises in Communications, Media & Entertainment through innovation, consultative selling, and delivery excellence.
+            A passionate Business Leader with 21+ years transforming enterprises in Communications, Media &amp; Entertainment through innovation, consultative selling, and delivery excellence — leading and transforming client organizations through creative IT solutions.
           </p>
           
           <div className="flex flex-col sm:flex-row flex-wrap gap-6 text-sm text-muted-foreground font-medium">
