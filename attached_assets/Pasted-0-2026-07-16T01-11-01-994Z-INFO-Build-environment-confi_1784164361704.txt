@@ -1,0 +1,159 @@
+0
+
+2026-07-16T01:11:01.994Z [INFO]: # Build environment configured with Standard build compute type: 8GiB Memory, 4vCPUs, 128GB Disk Space
+
+1
+
+2026-07-16T01:11:02.441Z [INFO]: # Cloning repository: git@github.com:genietip/ck.git
+
+2
+
+2026-07-16T01:11:02.937Z [INFO]: 
+
+3
+
+2026-07-16T01:11:02.938Z [INFO]: Cloning into 'ck'...
+
+4
+
+2026-07-16T01:11:02.938Z [INFO]: # Switching to commit: 47f88938df02044f3cd25a08ea5f9bb771b021d6
+
+5
+
+2026-07-16T01:11:02.961Z [INFO]: Note: switching to '47f88938df02044f3cd25a08ea5f9bb771b021d6'.
+
+6
+
+                                 You are in 'detached HEAD' state. You can look around, make experimental
+
+7
+
+                                 changes and commit them, and you can discard any commits you make in this
+
+8
+
+                                 state without impacting any branches by switching back to a branch.
+
+9
+
+                                 If you want to create a new branch to retain commits you create, you may
+
+10
+
+                                 do so (now or later) by using -c with the switch command. Example:
+
+11
+
+                                 git switch -c <new-branch-name>
+
+12
+
+                                 Or undo this operation with:
+
+13
+
+                                 git switch -
+
+14
+
+                                 Turn off this advice by setting config variable advice.detachedHead to false
+
+15
+
+                                 HEAD is now at 47f8893 Update amplify.yml and add build environment config asset
+
+16
+
+2026-07-16T01:11:03.031Z [INFO]: Successfully cleaned up Git credentials
+
+17
+
+2026-07-16T01:11:03.032Z [INFO]: # Checking for Git submodules at: /codebuild/output/src3834273767/src/ck/.gitmodules
+
+18
+
+2026-07-16T01:11:03.038Z [INFO]: # Retrieving environment cache...
+
+19
+
+2026-07-16T01:11:03.097Z [WARNING]: ! Unable to write cache: {"code":"ERR_BAD_REQUEST","message":"Request failed with status code 404"})}
+
+20
+
+2026-07-16T01:11:03.097Z [INFO]: ---- Setting Up SSM Secrets ----
+
+21
+
+2026-07-16T01:11:03.097Z [INFO]: SSM params {"Path":"/amplify/d17elxoy1e4aku/main/","WithDecryption":true}
+
+22
+
+2026-07-16T01:11:03.134Z [WARNING]: !Failed to set up process.env.secrets
+
+23
+
+2026-07-16T01:11:03.718Z [INFO]: # No package override configuration found.
+
+24
+
+2026-07-16T01:11:03.722Z [INFO]: # Retrieving cache...
+
+25
+
+2026-07-16T01:11:03.771Z [INFO]: # Retrieved cache
+
+26
+
+2026-07-16T01:11:07.656Z [INFO]: ## Starting Backend Build
+
+27
+
+                                 ## Checking for associated backend environment...
+
+28
+
+                                 ## No backend environment association found, continuing...
+
+29
+
+                                 ## Completed Backend Build
+
+30
+
+2026-07-16T01:11:07.670Z [INFO]: ## Starting Frontend Build
+
+31
+
+                                 # Starting phase: preBuild
+
+32
+
+2026-07-16T01:11:07.670Z [INFO]: # Executing command: npm install -g pnpm
+
+33
+
+2026-07-16T01:11:23.666Z [INFO]: added 1 package in 12s
+
+34
+
+2026-07-16T01:11:23.672Z [INFO]: 1 package is looking for funding
+
+35
+
+                                 run `npm fund` for details
+
+36
+
+2026-07-16T01:11:23.680Z [INFO]: # Executing command: pnpm install --frozen-lockfile
+
+37
+
+2026-07-16T01:11:24.502Z [INFO]: Scope: all 9 workspace projects
+
+38
+
+2026-07-16T01:11:24.835Z [INFO]: ? Verifying lockfile against supply-chain policies (505 entries)...
+
+39
+
+2026-07-16T01:11:24.846Z [INFO]: Lockfile is up to date, resolution step is skipped

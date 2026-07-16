@@ -1,0 +1,96 @@
+026-07-16T01:11:24.964Z [INFO]: Progress: resolved 1, reused 0, downloaded 0, added 0
+
+41
+
+2026-07-16T01:11:25.064Z [INFO]: Packages: +503
+
+42
+
+                                 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+43
+
+2026-07-16T01:11:25.980Z [INFO]: Progress: resolved 503, reused 0, downloaded 0, added 0
+
+44
+
+2026-07-16T01:11:26.980Z [INFO]: Progress: resolved 503, reused 0, downloaded 90, added 4
+
+45
+
+2026-07-16T01:11:27.981Z [INFO]: Progress: resolved 503, reused 0, downloaded 325, added 24
+
+46
+
+2026-07-16T01:11:28.985Z [INFO]: ✓ Lockfile passes supply-chain policies (505 entries in 4.1s)
+
+47
+
+2026-07-16T01:11:28.988Z [INFO]: Progress: resolved 503, reused 0, downloaded 387, added 28
+
+48
+
+2026-07-16T01:11:29.988Z [INFO]: Progress: resolved 503, reused 0, downloaded 502, added 502
+
+49
+
+2026-07-16T01:11:31.205Z [INFO]: Progress: resolved 503, reused 0, downloaded 503, added 502
+
+50
+
+2026-07-16T01:11:31.210Z [INFO]: Progress: resolved 503, reused 0, downloaded 503, added 503, done
+
+51
+
+2026-07-16T01:11:31.506Z [INFO]: dependencies:
+
+52
+
+                                 + @replit/connectors-sdk 0.4.1
+
+53
+
+                                 devDependencies:
+
+54
+
+                                 + prettier 3.9.5
+
+55
+
+                                 + typescript 5.9.3
+
+56
+
+2026-07-16T01:11:31.526Z [INFO]: . preinstall$ sh -c 'rm -f package-lock.json yarn.lock; case "$npm_config_user_agent" in pnpm/*) ;; *) echo "Use pnpm instead" >&2; exit 1 ;; esac'
+
+57
+
+2026-07-16T01:11:31.546Z [INFO]: . preinstall: Done
+
+58
+
+2026-07-16T01:11:31.655Z [INFO]: [ERR_PNPM_IGNORED_BUILDS] Ignored build scripts: esbuild@0.27.3
+
+59
+
+                                 Run "pnpm approve-builds" to pick which dependencies should be allowed to run scripts.
+
+60
+
+2026-07-16T01:11:31.728Z [ERROR]: !!! Build failed
+
+61
+
+2026-07-16T01:11:31.728Z [ERROR]: !!! Error: Command failed with exit code 1
+
+62
+
+2026-07-16T01:11:31.728Z [INFO]: # Starting environment caching...
+
+63
+
+2026-07-16T01:11:31.730Z [INFO]: # Environment caching completed
+
+64
+
