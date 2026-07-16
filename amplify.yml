@@ -7,7 +7,7 @@ frontend:
         - pnpm install --frozen-lockfile
     build:
       commands:
-        - pnpm --filter @workspace/cv-website run build
+        - PORT=3000 BASE_PATH=/ pnpm --filter @workspace/cv-website run build
   artifacts:
     baseDirectory: artifacts/cv-website/dist/public
     files:

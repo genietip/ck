@@ -1,0 +1,154 @@
+
+2026-07-16T01:07:22.860Z [INFO]: # Build environment configured with Standard build compute type: 8GiB Memory, 4vCPUs, 128GB Disk Space
+
+1
+
+2026-07-16T01:07:23.306Z [INFO]: # Cloning repository: git@github.com:genietip/ck.git
+
+2
+
+2026-07-16T01:07:24.215Z [INFO]: 
+
+3
+
+2026-07-16T01:07:24.215Z [INFO]: Cloning into 'ck'...
+
+4
+
+2026-07-16T01:07:24.216Z [INFO]: # Checking for Git submodules at: /codebuild/output/src73688341/src/ck/.gitmodules
+
+5
+
+2026-07-16T01:07:24.223Z [INFO]: # Retrieving environment cache...
+
+6
+
+2026-07-16T01:07:24.277Z [WARNING]: ! Unable to write cache: {"code":"ERR_BAD_REQUEST","message":"Request failed with status code 404"})}
+
+7
+
+2026-07-16T01:07:24.278Z [INFO]: ---- Setting Up SSM Secrets ----
+
+8
+
+2026-07-16T01:07:24.278Z [INFO]: SSM params {"Path":"/amplify/d17elxoy1e4aku/main/","WithDecryption":true}
+
+9
+
+2026-07-16T01:07:24.328Z [WARNING]: !Failed to set up process.env.secrets
+
+10
+
+2026-07-16T01:07:25.815Z [INFO]: # No package override configuration found.
+
+11
+
+2026-07-16T01:07:25.819Z [INFO]: # Retrieving cache...
+
+12
+
+2026-07-16T01:07:25.864Z [INFO]: # Retrieved cache
+
+13
+
+2026-07-16T01:07:35.960Z [INFO]: ## Starting Backend Build
+
+14
+
+                                 ## Checking for associated backend environment...
+
+15
+
+                                 ## No backend environment association found, continuing...
+
+16
+
+                                 ## Completed Backend Build
+
+17
+
+2026-07-16T01:07:35.966Z [INFO]: {"backendDuration": 0}
+
+18
+
+                                 ## Starting Frontend Build
+
+19
+
+                                 # Starting phase: preBuild
+
+20
+
+                                 # Executing command: npm install -g pnpm
+
+21
+
+2026-07-16T01:08:15.455Z [INFO]: added 1 package in 28s
+
+22
+
+2026-07-16T01:08:15.462Z [INFO]: 1 package is looking for funding
+
+23
+
+                                 run `npm fund` for details
+
+24
+
+2026-07-16T01:08:15.464Z [INFO]: # Executing command: pnpm install --frozen-lockfile
+
+25
+
+2026-07-16T01:08:16.655Z [INFO]: Scope: all 9 workspace projects
+
+26
+
+2026-07-16T01:08:17.349Z [INFO]: ? Verifying lockfile against supply-chain policies (505 entries)...
+
+27
+
+2026-07-16T01:08:17.361Z [INFO]: Lockfile is up to date, resolution step is skipped
+
+28
+
+2026-07-16T01:08:17.483Z [INFO]: Progress: resolved 1, reused 0, downloaded 0, added 0
+
+29
+
+2026-07-16T01:08:17.581Z [INFO]: Packages: +503
+
+30
+
+                                 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+31
+
+2026-07-16T01:08:18.486Z [INFO]: Progress: resolved 503, reused 0, downloaded 0, added 0
+
+32
+
+2026-07-16T01:08:19.491Z [INFO]: Progress: resolved 503, reused 0, downloaded 88, added 4
+
+33
+
+2026-07-16T01:08:20.675Z [INFO]: Progress: resolved 503, reused 0, downloaded 290, added 20
+
+34
+
+2026-07-16T01:08:21.771Z [INFO]: Progress: resolved 503, reused 0, downloaded 336, added 24
+
+35
+
+2026-07-16T01:08:22.056Z [INFO]: ✓ Lockfile passes supply-chain policies (505 entries in 4.7s)
+
+36
+
+2026-07-16T01:08:22.772Z [INFO]: Progress: resolved 503, reused 0, downloaded 503, added 380
+
+37
+
+2026-07-16T01:08:22.981Z [INFO]: Progress: resolved 503, reused 0, downloaded 503, added 503, done
+
+38
+
+2026-07-16T01:08:23.292Z [INFO]: dependencies:
