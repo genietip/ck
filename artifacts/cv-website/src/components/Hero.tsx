@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin, User } from 'lucide-react';
+import { Mail, Phone, MapPin } from 'lucide-react';
+import profilePhoto from '@assets/Photoroom_20260414_001256_1784162174403.jpg';
 
 export function Hero() {
   return (
@@ -45,7 +46,7 @@ export function Hero() {
           </div>
         </motion.div>
 
-        {/* Right Content - Photo Placeholder */}
+        {/* Right Content - Profile Photo */}
         <motion.div 
           className="w-48 h-64 md:w-64 md:h-80 lg:w-72 lg:h-96 shrink-0 relative"
           initial={{ opacity: 0, scale: 0.95 }}
@@ -53,9 +54,12 @@ export function Hero() {
           transition={{ duration: 1, delay: 0.2, ease: "easeOut" }}
         >
           <div className="absolute inset-0 border border-primary/40 rounded-2xl translate-x-4 translate-y-4"></div>
-          <div className="absolute inset-0 bg-secondary rounded-2xl overflow-hidden border border-white/10 flex items-center justify-center">
-            <div className="absolute inset-0 bg-gradient-to-tr from-black/40 to-transparent"></div>
-            <User size={64} className="text-white/10" strokeWidth={1} />
+          <div className="absolute inset-0 bg-secondary rounded-2xl overflow-hidden border border-primary/30">
+            <img
+              src={profilePhoto}
+              alt="Chandrakanth Vallakati"
+              className="w-full h-full object-cover object-top"
+            />
           </div>
         </motion.div>
 
