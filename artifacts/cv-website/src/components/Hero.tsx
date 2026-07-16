@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin } from 'lucide-react';
-import profilePhoto from '@assets/Photoroom_20260414_001256_1784162174403.jpg';
+import profilePhoto from '../assets/profile.jpg';
 
 export function Hero() {
   return (
